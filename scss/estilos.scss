@@ -1,0 +1,174 @@
+//-------------------------------------
+//Patrones de colores
+//-------------------------------------
+$texto:#FFFFFF;
+$principal:#CAD0F7;
+$secundario:#6B78EE;
+$tercero:#4654D8;
+
+html{
+    font-size: 15px;
+}
+body{  
+   color: $tercero;
+}
+
+
+
+.bienvenidos{
+    background: $principal;
+    color: $tercero;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-encabezado {
+    margin-top: 2rem;
+    color: $secundario;
+}
+.texto-encabezado img{
+    margin-top: 1rem;
+    transition: all 1.2s ease;
+}
+.texto-encabezado img:hover{
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+
+}
+.texto-encabezado .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 11;
+}
+ 
+.texto-encabezado p{
+    margin-top: 1rem;
+    opacity: 80%;
+}
+.texto-encabezado h2{
+   font-size: 14pt;
+   margin-top: 2rem;
+   opacity: 80%;
+}
+.texto-encabezado h1{
+    font-family: "Breeze Personal Use";
+}
+
+.ilustracion{
+    height: 100%;
+}
+.ilustracion img{
+    
+    width: 86px;
+    height: 180px;
+    margin-top: 1rem;
+}
+
+.contenido-principal{
+    position: relative;
+    z-index: 9;
+    height: 25%;
+    margin-top: 2rem;
+}
+.contenido-principal .container{
+    height: 100%;
+}
+.contenido-principal .container .row{
+    height: 100%;
+}
+.contenido-principal .botones{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    height: 100%;
+}
+.contenido-principal .botones a{
+    transition: all .5s ease;
+}
+.contenido-principal .botones a:hover, .contenido-principal .botones a:focus{
+    opacity: 70%;
+}
+.contenido-principal .imagen-fondo{
+    top: -200px;
+}
+.contenido-principal .imagen-fondo img{
+    height: 40vw;
+}
+.slogan{
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    
+}
+.slogan .container{
+    height: 100%;
+}
+.slogan .container .row{
+    height: 100%;
+}
+.contenedor-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.slogan img{
+    width: 200px;
+}
+.flexbox{
+    position: relative;
+    display: flex;
+    
+}
+ .relleno-sin-color{
+    flex: 1 1 40%;
+    height: 50vh;
+}
+.background-shape{
+    
+    flex: 1 1 60%;
+    height: 100vh;
+    position: relative;
+}
+.background-color-shape{
+    position: absolute;
+    height: 100vh;
+    width: 60vw;
+    border-bottom-left-radius: 60% 70%;
+    border-top-left-radius: 10% 70%;
+
+}
+.background-contenedor{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+.contenedor-slogan p{
+    font-size: 16px;
+    opacity: 80%;
+}
+/*------------------------
+Medias queries
+------------------------*/
+@media(min-width: 768px){
+    .background-color-shape{
+        background-color: $secundario;
+    }
+}
+@media(min-width: 1100px){
+    .contenido-principal .imagen-fondo{
+        top: -250px;
+    }
+}
+
+
+
+
+
+
+
+
+

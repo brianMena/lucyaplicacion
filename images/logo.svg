@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.239" height="53.731" viewBox="0 0 57.239 53.731">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3147b0"/>
+      <stop offset="1" stop-color="#758bef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.499" y1="2.356" x2="0.502" y2="-1.717" gradientUnits="objectBoundingBox">
+      <stop offset="0.361" stop-color="#758bef"/>
+      <stop offset="0.553" stop-color="#3147b0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0.959" x2="0.5" y2="-0.311" gradientUnits="objectBoundingBox">
+      <stop offset="0.202" stop-color="#3147b0"/>
+      <stop offset="1" stop-color="#758bef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.017" x2="0.5" y2="0.97" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#344ab2"/>
+      <stop offset="1" stop-color="#758bef"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_41975" data-name="Group 41975" transform="translate(-29.85 -32.25)">
+    <path id="Path_43770" data-name="Path 43770" d="M39.151,32.5H77.788l9.3,11.8L58.47,85.222,29.85,44.3Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    <path id="Path_43771" data-name="Path 43771" d="M29.85,44.3H87.089l-9.3-11.8H39.151Z" transform="translate(0)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_43772" data-name="Path 43772" d="M29.85,43.471H87.089L58.47,84.388Z" transform="translate(0 0.833)" fill="url(#linear-gradient-3)"/>
+    <line id="Line_123" data-name="Line 123" x1="6.932" y1="11.691" transform="translate(65.847 32.5)" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5" fill="url(#linear-gradient-4)"/>
+    <path id="Path_43773" data-name="Path 43773" d="M41.925,43.366,56.235,84.4l14.31-41.031" transform="translate(2.235 0.825)" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5" fill="url(#linear-gradient-4)"/>
+    <line id="Line_124" data-name="Line 124" x1="6.562" y2="11.691" transform="translate(44.16 32.5)" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5" fill="url(#linear-gradient-4)"/>
+    <line id="Line_125" data-name="Line 125" x2="39.507" transform="translate(38.713 32.5)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+  </g>
+</svg>
