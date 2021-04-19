@@ -55,11 +55,11 @@
                 <div class="row">
                     <div class="botones col-md-4">
                         <a href="#" class="btn1 wow zoomIn" data-wow-duration=".3s" data-wow-delay=".4s"><img
-                                src="images/apklis-boton.svg" alt=""></a>
+                                src="images/apklis-boton.png" alt=""></a>
                         <a href="#" class="btn2 wow zoomIn" data-wow-duration=".3s" data-wow-delay=".6s"><img
-                                src="images/google-boton.svg" alt=""></a>
+                                src="images/google-boton.png" alt=""></a>
                         <a href="https://drive.google.com/file/d/1PYvsyC2a8F-neCRqaX7NWiMWqRTY9Nff/view?usp=sharing" class="btn3 wow zoomIn" data-wow-duration=".3s" data-wow-delay=".8s"><img
-                                src="images/apple-boton.svg" alt=""></a>
+                                src="images/apple-boton.png" alt=""></a>
                     </div>
                     <div class="ilustracion hidden-sm-down col-md-2">
                         <img src="images/lucy ilustracion.svg" alt="Lucy" class="wow zoomIn" data-wow-duration=".3s"
