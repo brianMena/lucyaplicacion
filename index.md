@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-    <link href="//db.onlinewebfonts.com/c/1ecb0f102bfbeb340cd2a51ff9600a44?family=Breeze+Personal+Use" rel="stylesheet" type="text/css"/> 
+    
 
 
     <!-- Cargando fuentes -->
